@@ -1,0 +1,135 @@
+#topnav {
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: Black;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.nav-link {
+    display: inline-block;
+    width: 100px;
+    height: 55px;
+
+    color: White;
+
+    text-align: center;
+    line-height: 55px;
+
+    text-decoration: none;
+}
+
+#logo {
+    width: 120px;
+
+    background-color: RoyalBlue;
+
+    font-weight: bold;
+}
+
+#about {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container {
+    width: 100%;
+    background-color: #0D0A0B;
+    color: white;
+}
+
+.container .row {
+    width: 80%;
+    margin: auto;
+}
+
+.container .row .header {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.container .row .header h1 {
+    padding-top: 30px;
+    font-size: 40;
+    color: #546A7B;
+}
+
+img {
+    width: 450px;
+    height: 250px;
+}
+
+iframe {
+    width: 450px;
+    height: 250px;
+}
+
+.container .row .header p {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5px;
+    color: grey;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.content .card {
+    flex: 1px;
+    margin: 50px 20px;
+}
+
+.content .card h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: #546A7B;
+}
+p:active {
+    background-color: gray;
+}
+input:focus {
+    background-color: yellow;
+  }
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.nav-link {
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    transform: translateX(0);
+}
+
+footer {
+    width: 100%;
+    background-color: #0D0A0B;
+    text-align: center;
+    flex: auto;
+}
