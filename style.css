@@ -103,7 +103,7 @@ p:active {
     background-color: gray;
 }
 input:focus {
-    background-color: yellow;
+    background-color: blue;
   }
 
 @keyframes slideInLeft {
